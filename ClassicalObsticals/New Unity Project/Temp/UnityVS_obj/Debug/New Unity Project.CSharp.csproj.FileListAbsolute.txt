@@ -1,0 +1,19 @@
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\Assembly-CSharp.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\Assembly-CSharp.pdb
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Common.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.Networking.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.UI.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.UI.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.Networking.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEngine.Analytics.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_bin\Debug\UnityEditor.iOS.Extensions.Common.xml
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_obj\Debug\New Unity Project.CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_obj\Debug\Assembly-CSharp.dll
+C:\Users\Joshua\Documents\New Unity Project\Temp\UnityVS_obj\Debug\Assembly-CSharp.pdb
