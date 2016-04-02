@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Basic.unity
+- path: Assets/LeapMotionModules/PinchUtility/Examples/Scenes/PinchMovementDemo.unity
   isLoaded: 1
   isActive: 1
