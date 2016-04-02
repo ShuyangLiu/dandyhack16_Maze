@@ -6,7 +6,9 @@ public class MoveCamera : MonoBehaviour {
 
     public float turnSpeed = 4.0f;      
     public float panSpeed = 4.0f;     
-    public float zoomSpeed = 4.0f;     
+    public float zoomSpeed = 4.0f;
+
+    float distance = 5;
 
     private Vector3 mouseOrigin;    
     private bool isPanning;    
@@ -18,28 +20,36 @@ public class MoveCamera : MonoBehaviour {
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             Vector3 position = this.transform.position;
-            position.x--;
+            Vector3 cam = Camera.main.transform.right;
+            cam.y = 0;
+            position = transform.position + cam * -distance * Time.deltaTime; ;
             this.transform.position = position;
         }
-        if (Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.RightArrow))
         {
             Vector3 position = this.transform.position;
-            position.x++;
+            Vector3 cam = Camera.main.transform.right;
+            cam.y = 0;
+            position = transform.position + cam * distance * Time.deltaTime; ;
             this.transform.position = position;
         }
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow))
         {
             Vector3 position = this.transform.position;
-            position.z++;
+            Vector3 cam = Camera.main.transform.forward;
+            cam.y = 0;
+            position = transform.position + cam * distance * Time.deltaTime;
             this.transform.position = position;
         }
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.DownArrow))
         {
             Vector3 position = this.transform.position;
-            position.z--;
+            Vector3 cam = Camera.main.transform.forward;
+            cam.y = 0;
+            position = transform.position + cam * -distance * Time.deltaTime;
             this.transform.position = position;
         }
 
