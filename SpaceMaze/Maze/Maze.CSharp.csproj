@@ -63,6 +63,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\AutoFade.cs" />
+    <Compile Include="Assets\ChangeAudio.cs" />
     <Compile Include="Assets\Collision.cs" />
     <Compile Include="Assets\Fire Mega Pack\Example\FireMegaPack_Script.cs" />
     <Compile Include="Assets\Fire Mega Pack\Scripts\FireMegaPack_VariationLight.cs" />
@@ -152,6 +154,8 @@
     <Compile Include="Assets\LeapPinchDetector.cs" />
     <Compile Include="Assets\LeapRTS.cs" />
     <Compile Include="Assets\Move.cs" />
+    <Compile Include="Assets\MoveText.cs" />
+    <Compile Include="Assets\MoveTo.cs" />
     <Compile Include="Assets\Movement.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRDebugHeadController.cs" />
     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
@@ -181,6 +185,8 @@
     <Compile Include="Assets\OVR\Scripts\Util\OVRSceneSampleController.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
     <Compile Include="Assets\OVR\Scripts\Util\OVRTrackerBounds.cs" />
+    <Compile Include="Assets\PlayDescriptionAudio.cs" />
+    <Compile Include="Assets\fading.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fire Mega Pack\Shader\ParticleAddSoftFront.shader" />

@@ -12,6 +12,7 @@ public class Collision : MonoBehaviour {
 
     public void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        this.transform.position = new Vector3(this.transform.position.x, 16.329f, this.transform.position.z);
         Debug.Log("HERE");
         Rigidbody body = hit.collider.attachedRigidbody;
         if (body == null || body.isKinematic)

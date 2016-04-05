@@ -65,6 +65,7 @@ namespace Leap.Unity.PinchUtility {
 
     void OnTriggerEnter(Collider collider)
     {
+        Debug.Log("WAT");
         for (int i = 0; i < target_obj.Length; i++)
         {
             if (target_obj[i] == null)
@@ -82,7 +83,7 @@ namespace Leap.Unity.PinchUtility {
                 break;
             }
         }
-			Debug.Log ("WAT");
+			
     }
 
     void OnTriggerExit(Collider collider)
